@@ -26,21 +26,30 @@
 <meta name="theme-color" content="#7952b3">
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+      @font-face {
+        font-family: w95font;
+        src: url(https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff);
+        font-weight: normal;
+        }
+
+      @font-face {
+        font-family: w95font;
+        src: url(https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff);
+        font-weight: bold;
+        }
 
       .navbar-custom {
         background-color: #000000;
         }
 
-      .navbar-custom .navbar-brand,
-      .navbar-custom .navbar-text {
+      .navbar-custom .navbar-brand {
+        color: rgb(255, 255, 255);
+        font-family: w95font;
+      }
+
+      .navbar-custom .navbar-nav {
           color: rgb(255, 255, 255);
+          font-family: w95font;
         }
 
       @media (min-width: 768px) {
@@ -82,7 +91,6 @@
   <div class="bg-light p-5 rounded">
     <h1>Navbar example</h1>
     <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-    <a class="btn btn-lg btn-primary" href="/docs/5.0/components/navbar/" role="button">View navbar docs &raquo;</a>
   </div>
 </main>
     
