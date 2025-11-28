@@ -6,7 +6,28 @@
     <title>stoperror - Welcome!</title>
     <link rel="canonical" href="https://stop-error.github.io/stoperror-site/">
 
+    <link 
+      rel="preload" 
+      href="https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff" 
+      as="font"
+      crossorigin/>
+
+      <link 
+      rel="preload" 
+      href="https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff" 
+      as="font"
+      crossorigin/>
     
+      <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff" 
+      />
+
+      <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff" 
+      />
+
 
     <!-- Bootstrap CDN -->
 
@@ -26,31 +47,6 @@
 <meta name="theme-color" content="#7952b3">
 
     <style>
-      @font-face {
-        font-family: w95font;
-        src: url(https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff);
-        font-weight: normal;
-        }
-
-      @font-face {
-        font-family: w95font;
-        src: url(https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff);
-        font-weight: bold;
-        }
-
-      .navbar-custom {
-        background-color: #000000;
-        }
-
-      .navbar-custom .navbar-brand {
-        color: rgb(255, 255, 255);
-        font-family: w95font;
-      }
-
-      .navbar-custom .nav-item {
-          color: rgb(255, 255, 255);
-          font-family: w95font;
-        }
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -65,9 +61,9 @@
   </head>
   <body>
     
-<nav class="navbar navbar-expand-md navbar-custom fixed-top">
+<nav class="navbar navbar-expand-md fixed-top" style="color: white; background-color: #000000; font-family: W95font;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Fixed navbar</a>
+    <a class="navbar-brand" style="font-family: W95font-Bold;" href="#">Fixed navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
