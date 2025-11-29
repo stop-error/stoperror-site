@@ -1,20 +1,7 @@
- @font-face {
-    font-family: 'w95Font';
-    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff2') format('woff2');
-    }
-
-
-@font-face {
-    font-family: 'w95Font-bold';
-    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff2') format('woff2');
-    }
-
-
 .navbar {
     font-family: w95font;
     color: white; 
-    background-color: #000000; 
-    padding-bottom: 0
+    background-color: #000000;
 }
 
 /* .navbar-brand {
@@ -29,8 +16,4 @@
 .navbar-brand {
     font-family: w95font-bold;
     font-size: 1.5rem;
-}
-
-.nav-link {
-    align-self: flex-end;
 }

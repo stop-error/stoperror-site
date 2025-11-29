@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'w95Font';
+    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff2') format('woff2');
+    }
+
+
+@font-face {
+    font-family: 'w95Font-bold';
+    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff2') format('woff2');
+    }
