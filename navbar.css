@@ -1,10 +1,13 @@
  @font-face {
     font-family: 'w95Font';
     src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff2') format('woff2');
-    font-style: normal;
     }
 
 
+@font-face {
+    font-family: 'w95Font-bold';
+    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font-bold.woff2') format('woff2');
+    }
 
 
 .navbar {
@@ -13,12 +16,16 @@
     background-color: #000000; 
 }
 
-.navbar-brand {
+/* .navbar-brand {
     font-family: Libre Franklin; 
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: bold;
     font-size: 1.5rem;
     filter: contrast(70%);
-}
+} */
 
+.navbar-brand {
+    font-family: w95font-bold;
+    font-size: 1.5rem;
+}
