@@ -22,8 +22,3 @@
 .navbar-nav > li > a:focus {
     color: #fdfd2c;
 }
-
-
-.nav-link:active {
- color: red;
-}
