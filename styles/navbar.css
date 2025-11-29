@@ -24,6 +24,6 @@
 }
 
 
-.active a { 
-    color: #fdfd2c !important; 
+.nav-link:active {
+ color: red;
 }
