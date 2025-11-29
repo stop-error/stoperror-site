@@ -14,6 +14,7 @@
     font-family: w95font;
     color: white; 
     background-color: #000000; 
+    padding-bottom: 0
 }
 
 /* .navbar-brand {
@@ -28,4 +29,8 @@
 .navbar-brand {
     font-family: w95font-bold;
     font-size: 1.5rem;
+}
+
+.nav-link {
+    align-self: flex-end;
 }
