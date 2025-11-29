@@ -1,0 +1,23 @@
+ @font-face {
+    font-family: 'w95Font';
+    src: url('https://cdn.jsdelivr.net/gh/stop-error/stoperror-site@latest/fonts/w95font.woff2') format('woff2');
+    font-style: normal;
+    }
+
+
+
+
+.navbar {
+    font-family: w95font;
+    color: white; 
+    background-color: #000000; 
+}
+
+.navbar-brand {
+    font-family: Libre Franklin; 
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+}
+
