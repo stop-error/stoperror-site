@@ -18,11 +18,12 @@
     font-size: 1.5rem;
 }
 
-.navbar-dark .navbar-nav > li > a:hover,
-.navbar-dark .navbar-nav > li > a:focus {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
     color: #fdfd2c;
 }
 
-.navbar-dark .navbar-nav > li > .active > a {
-    color: #fdfd2c;
+
+.navbar-nav .active a { 
+    color: #fdfd2c; 
 }
