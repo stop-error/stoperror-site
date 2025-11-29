@@ -22,3 +22,9 @@
 .navbar-dark .navbar-nav > li > a:focus {
     color: #fdfd2c;
 }
+
+.navbar-dark .navbar-nav > .active > a,
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > .active > a:focus {
+    color: #fdfd2c;
+}
