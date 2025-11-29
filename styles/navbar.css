@@ -23,8 +23,8 @@
     color: #fdfd2c;
 }
 
-.navbar-dark .navbar-nav > .active > a,
-.navbar-dark .navbar-nav > .active > a:hover,
-.navbar-dark .navbar-nav > .active > a:focus {
+.navbar-dark .navbar-nav > li > .active > a,
+.navbar-dark .navbar-nav > li > .active > a:hover,
+.navbar-dark .navbar-nav > li > .active > a:focus {
     color: #fdfd2c;
 }
