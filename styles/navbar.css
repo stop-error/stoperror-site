@@ -25,5 +25,5 @@
 
 
 .navbar-nav .active a { 
-    color: #fdfd2c; 
+    color: #fdfd2c !important; 
 }
