@@ -1,0 +1,8 @@
+name = "stoperror-site"
+
+compatibility_date = "2026-02-21"
+
+workers_dev = false
+
+[assets]
+directory = "./public"
